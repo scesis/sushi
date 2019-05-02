@@ -62,31 +62,76 @@ footer{
 div#centrarnav, div#centararheader, div#centrarpromo, div#centrarcontenidos, div#centrarubicacion, div#centrarfooter{
 	width: 1200px;
 	height: 100%;
-	background-color: rgba(146,218,62,0.53);
+	background-color: rgba(146,218,62,0.33);
 	position: relative;
 	margin: 0 auto;
 }
-div#centrarnav img{
+nav img{
 	float: left;
 	margin-top: 19px;
-	margin-bottom: 19px;
 	margin-left: 9px;
 	
 }
 
 ul#menuprincipal{
-	float: right;
-	margin-top: 19px;
+	float: left;
+	margin-top: 29px;
 	margin-left: 62px;
 	list-style: none;
 }
 
-ul li#menuprincipal{
+ul#menuprincipal li{
 	float: left;
-	margin-left: 47px;
+	margin-left: 43px;
 }
 
-a#menuprincipal{
-	width: 44px;
-	height: 23px;
+ul#menuprincipal a{
+	color: #262626;
+	font-size: 20px;
+	font-family: "Helvetica Neue", sans-serif;
+	text-decoration: none;
+		
+}
+
+ul#socialestop{
+	float: right;
+	margin-top: 29px;
+	margin-right: 0px;
+	list-style: none;
+	
+}
+
+ul#socialestop li{
+	float: left;
+	margin-left: 20px;
+}
+
+div#face{
+	width: 11px;
+	height: 21px;
+	background-image: url("../img/redes/faceWhite.svg");
+}
+
+div#face:hover{
+	background-image: url("../img/redes/faceHover.svg");
+}
+
+div#twitter{
+	width: 23px;
+	height: 18px;
+	background-image: url("../img/redes/twitterWhite.svg");
+}
+
+div#twitter:hover{
+	background-image: url("../img/redes/twitterHover.svg");
+}
+
+div#inst{
+	width: 21px;
+	height: 21px;
+	background-image: url("../img/redes/inwhite.svg");
+}
+
+div#inst:hover{
+	background-image: url("../img/redes/inHover.svg");
 }
